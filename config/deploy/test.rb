@@ -1,5 +1,5 @@
-set :branch, 'ecoportal-ontoportal-reset'
-set :server, '193.204.79.66'
+set :branch, 'master'
+set :server, 'ecoportal.lifewatchdev.eu'
 
 server fetch(:server), user: fetch(:user), roles: %w{web app}
 
